@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pgweb | Acara 2 | Bootstrap </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary style= background-color: #e3f2fd;
+        data-bs-theme= light shadow -sm fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sumba Timur</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Deskripsi">
+                                <i class="bi bi-card-list"></i>Deskripsi</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Penduduk">
+                                <i class="bi bi-people-fill"></i> Penduduk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Kecamatan">
+                                <i class="bi bi-map-fill"></i>Kecamatan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Gambar">
+                                <i class="bi bi-image-fill"></i>Gambar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Sumber">
+                                <i class="bi bi-sourceforge"></i>Sumber</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="infoModal">
+                                <i class="bi bi-info-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Title -->
+        <div class="alert alert-primary shadow text-center" role="alert">
+            <h1> Sumba Timur</h1>
+            <h3>Nusa Tenggara Timur</h3>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="card shadow" id="Deskripsi">
+            <div class="card-header">
+                <h2> <i class="bi bi-card-list"></i>Deskripsi</h2>
+                <div class="crad">
+                    <div class="card-body">
+                        <p>
+                            Kabupaten Sumba Timur, yang beribu kota di Waingapu, merupakan wilayah terbesar di Pulau
+                            Sumba, Provinsi
+                            Nusa Tenggara Timur. Dengan luas mencapai sekitar 7.000 km², daerah ini mendominasi lebih
+                            dari separuh
+                            daratan pulau. Karakteristik utamanya ditandai oleh perbukitan kapur yang bergelombang,
+                            bentang alam sabana
+                            yang membentang luas, serta garis pantai eksotis di sisi utara dan selatan. Iklim di kawasan
+                            ini cenderung
+                            kering dengan musim kemarau yang panjang, membentuk lanskap perbukitan berwarna keemasan di
+                            musim kering dan
+                            hijau segar saat musim hujan tiba.
+                        </p>
+                        <p>
+                            Kondisi geografi tersebut sangat memengaruhi mata pencaharian dan perekonomian masyarakat
+                            setempat. Sabana
+                            yang terhampar luas menjadikannya kawasan sentral peternakan, di mana kuda Sandalwood, sapi,
+                            dan kerbau
+                            dilepasliarkan secara bebas. Selain sektor peternakan, masyarakat memanfaatkan aliran sungai
+                            untuk bertani
+                            jagung dan padi, sementara wilayah pesisir dioptimalkan untuk sektor perikanan dan budi daya
+                            laut.
+                        </p>
+                        <p>
+                            Keunggulan Sumba Timur juga terletak pada kekayaan budaya Marapu yang masih terjaga kuat.
+                            Jejak tradisi ini
+                            terlihat jelas dari arsitektur rumah adat beratap menjulang tinggi (Uma Bokulu), kompleks
+                            kubur batu
+                            megalitik, hingga tradisi pembuatan kain tenun ikat bermotif khas yang telah diakui dunia.
+                            Dipadukan dengan
+                            pesona alam seperti Bukit Wairinding, Sabana Puru Kambera, Air Terjun Tanggedu, dan pohon
+                            bakau ikonik di
+                            Pantai Walakiri, Sumba Timur menjadi salah satu destinasi wisata paling memikat di Indonesia
+                            timur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Penduduk -->
+        <div class="card shadow mt-4 " id="Penduduk">
+            <div class="card-header">
+                <h2> <i class="bi bi-people-fill"></i> Penduduk </h2>
+                <div class="crad">
+                    <!-- Table -->
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <th>No</th>
+                                <th>Jenis Kelamin</th>
+                                <th>Jumlah</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    Laki-laki
+                                </td>
+                                <td>
+                                    133.200 jiwa
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    Perempuan
+                                </td>
+                                <td>
+                                    126.800 jiwa
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    3
+                                </td>
+                                <td>
+                                    Total
+                                </td>
+                                <td>
+                                    260.000 jiwa
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Kecamtan -->
+        <div class="card shadow mt-4 " id="Kecamatan">
+            <div class="card-header">
+                <h2> <i class="bi bi-map-fill"></i> Kecamatan </h2>
+                <div class="crad">
+
+                    <div class="card-body">
+                        <ol>
+                            <li>Kota Waingapu</li>
+                            <li>Kambera</li>
+                            <li>Pandawai</li>
+                            <li>Umalulu</li>
+                            <li>Matawai La Pawu</li>
+                            <li>Lewa</li>
+                            <li>Tabundung</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sumber -->
+        <div class="card shadow mt-4 " id="Sumber">
+            <div class="card-header">
+                <h2> <i class="bi bi-sourceforge"></i>Sumber</h2>
+                <div class="crad">
+
+                    <div class="card-body">
+                        <a href="https://sumbatimurkab.bps.go.id/id/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMw==/population--population-growth-rate--percentage-distribution-of-population--population-density--and-population-sex-ratio-by-district-in-sumba-timur-regency--2025.html?year=2025"
+                            target="_blank" rel="noopener noreferrer">=/BPS Kabupaten Sumba Timur</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gambar -->
+        <div class="card shadow mt-4 " id="Gambar">
+            <div class="card-header">
+                <h2> <i class="bi bi-image-fill"></i>Gambar</h2>
+                <div class="crad">
+
+                    <div class="card-body">
+                        <img src="https://tripsumba.com/wp-content/uploads/2020/07/adat.jpg" width="500">
+                        <img src="Pantai-Walakiri-tempat-wisata-di-Sumba-Timur-Nusa-Tenggara-Timur.jpg" width="700" <hr>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Gambar -->
+            <div class="card shadow mt-4 " id="Gambar">
+                <div class="card-header">
+                    <h2> Video</h2>
+                    <div class="crad">
+
+                        <div class="card-body">
+                            <!-- iframe -->
+                            <iframe width="900" height="400"
+                                src="https://www.youtube.com/embed/K3pVn9awunw?si=froag5SSEkoCViu-"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table>
+                                    <tr>
+                                        <td>Nama</td>
+                                        <td>:</td>
+                                        <td>Engelika</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nim</td>
+                                        <td>:</td>
+                                        <td>568101</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kelas</td>
+                                        <td>:</td>
+                                        <td>B</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
